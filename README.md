@@ -1,5 +1,7 @@
 # interpolate-angle
 
+![](screenshot.png)
+
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
 Linear interpolation between two angles along the shorter arc
