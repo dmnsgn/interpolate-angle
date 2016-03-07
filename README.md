@@ -16,7 +16,7 @@ Parameters:
 `t` - interpolation ratio 0..1
 
 ```javascript
-var interpolateAngle = require('interpolateAngle');
+var interpolateAngle = require('interpolate-angle');
 
 interpolateAngle(0, 2 * Math.PI, 0.5) //-> PI
 interpolateAngle(-Math.PI/6, Math.PI/6, 0.5) //-> 0
