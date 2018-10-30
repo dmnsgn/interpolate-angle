@@ -15,12 +15,10 @@ function interpolateAngle(fromAngle, toAngle, t) {
         if (fromAngle > toAngle) {
             fromAngle = fromAngle - TWO_PI;
             return lerp(fromAngle, toAngle, t);
-            return from;
         }
         else if (toAngle > fromAngle) {
             toAngle = toAngle - TWO_PI;
             return lerp(fromAngle, toAngle, t);
-            return from;
         }
     }
 }
